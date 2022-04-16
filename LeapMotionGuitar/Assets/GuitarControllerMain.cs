@@ -7,6 +7,7 @@ public class GuitarControllerMain : MonoBehaviour
 {
     public AudioSource guitarAudioSource;
     public AudioClip[] chords;
+    public GameObject[] chordLEDs;
     public Text chordInfo;
 
     int chordNumber = 0; // produces the open (no chord) guitar sound
@@ -32,11 +33,19 @@ public class GuitarControllerMain : MonoBehaviour
                 chordName = "G"; break;
         }
         chordInfo.text += "\n" + chordName;
+        hideLEDs();
+        chordLEDs[chordNumber].SetActive(true);
     }
 
     public void strumGuitarStrings() {
         guitarAudioSource.Stop();
         guitarAudioSource.clip = chords[chordNumber];
         guitarAudioSource.Play();
+    }
+
+    private void hideLEDs() { 
+        foreach(GameObject led in chordLEDs) {
+            led.SetActive(false);
+        }
     }
 }
