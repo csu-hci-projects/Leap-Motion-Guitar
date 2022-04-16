@@ -10,7 +10,7 @@ First of all, a Leap Motion Controller from Ultraleap and Leap Motion service so
 
 To play the Leap Motion Guitar Prototype, make a chord gesture on your left hand and strum the guitar with your right.
 
-Chord guestures are as follows:
+Chord gestures are as follows:
 
 * One finger: C major chord
 * Two fingers: D minor chord
