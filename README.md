@@ -22,6 +22,7 @@ Chord gestures are as follows:
 ## Links
 * Overview video:https://youtu.be/uyhseUaRVUs
 * Presentation video: https://youtu.be/u2dkGvL-8wE
+* Website: https://cs.colostate.edu/~djone010/cs464.html
 * Checkpoint 2 demo video: https://youtu.be/oZGA7Wq5lfI 
 * GitHub project: https://github.com/csu-hci-projects/Leap-Motion-Guitar/ 
 * LeapMotion service 4.1.0: https://developer.leapmotion.com/releases/leap-motion-orion-410-99fe5-crpgl 
