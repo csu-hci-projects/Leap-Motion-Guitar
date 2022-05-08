@@ -10,7 +10,7 @@ First of all, a Leap Motion Controller from Ultraleap and Leap Motion service so
 
 To play the Leap Motion Guitar Prototype, make a chord gesture on your left hand and strum the guitar with your right.
 
-Chord guestures are as follows:
+Chord gestures are as follows:
 
 * One finger: C major chord
 * Two fingers: D minor chord
@@ -20,4 +20,6 @@ Chord guestures are as follows:
 * No fingers: Standard tuning open chord sound/not a real chord
 
 ## Links
-https://developer.leapmotion.com/releases/leap-motion-orion-410-99fe5-crpgl
+* Checkpoint 2 demo video: https://youtu.be/oZGA7Wq5lfI 
+* GitHub project: https://github.com/csu-hci-projects/Leap-Motion-Guitar/ 
+* LeapMotion service 4.1.0: https://developer.leapmotion.com/releases/leap-motion-orion-410-99fe5-crpgl 
